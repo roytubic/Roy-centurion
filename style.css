@@ -1,0 +1,57 @@
+body {
+    background: linear-gradient(to bottom right, teal, transparent)) center/cover no-repeat border-box, #080E33;
+    background-color: teal;
+    font-family: 'Permanent Marker', cursive;
+}
+
+
+
+@media (min-width:320px) {
+    body{
+        background-color: green;
+    }
+    .image{
+        align-items: center;
+        border-radius: 50%;
+        object-fit: cover;
+        width: 220px;
+        height: 250px;
+        margin-left: 15%;
+        margin-right: auto;
+    }
+}
+
+@media (min-width:768px) {
+    body{
+        background-color: blue;
+    }
+    .image{
+        align-items: center;
+        border-radius: 50%;
+        object-fit: cover;
+        width: 400px;
+        height: 400px;
+        margin-left: 25%;
+        margin-right: auto;
+    }
+}
+
+@media (min-width:1024px){
+    body{
+        background-color: red;
+    }
+    .image {
+        align-items: center;
+        border-radius: 50%;
+        object-fit: cover;
+        width: 500px;
+        height: 500px;
+        margin-left: 30%;
+        margin-right: auto;
+      }
+}
+
+  .button {
+    align-items: center;
+  }
+
